@@ -13,6 +13,10 @@
 		BA12D59F28B8C0FC00ACC84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA12D59D28B8C0FC00ACC84C /* Main.storyboard */; };
 		BA12D5A128B8C0FD00ACC84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA12D5A028B8C0FD00ACC84C /* Assets.xcassets */; };
 		BA12D5A428B8C0FD00ACC84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA12D5A228B8C0FD00ACC84C /* LaunchScreen.storyboard */; };
+		BA12D5AF28B8C10A00ACC84C /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA12D5AC28B8C10A00ACC84C /* ryo.jpg */; };
+		BA12D5B028B8C10A00ACC84C /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA12D5AD28B8C10A00ACC84C /* nagata.jpg */; };
+		BA12D5B128B8C10A00ACC84C /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA12D5AE28B8C10A00ACC84C /* taithi.jpg */; };
+		BA12D5B328B8C2CE00ACC84C /* menter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12D5B228B8C2CE00ACC84C /* menter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BA12D5A028B8C0FD00ACC84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA12D5A328B8C0FD00ACC84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA12D5A528B8C0FD00ACC84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA12D5AC28B8C10A00ACC84C /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		BA12D5AD28B8C10A00ACC84C /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		BA12D5AE28B8C10A00ACC84C /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		BA12D5B228B8C2CE00ACC84C /* menter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				BA12D59728B8C0FC00ACC84C /* AppDelegate.swift */,
 				BA12D59928B8C0FC00ACC84C /* SceneDelegate.swift */,
 				BA12D59B28B8C0FC00ACC84C /* ViewController.swift */,
+				BA12D5B228B8C2CE00ACC84C /* menter.swift */,
 				BA12D59D28B8C0FC00ACC84C /* Main.storyboard */,
 				BA12D5A028B8C0FD00ACC84C /* Assets.xcassets */,
 				BA12D5A228B8C0FD00ACC84C /* LaunchScreen.storyboard */,
 				BA12D5A528B8C0FD00ACC84C /* Info.plist */,
+				BA12D5AB28B8C10A00ACC84C /* images */,
 			);
 			path = Menterbook;
+			sourceTree = "<group>";
+		};
+		BA12D5AB28B8C10A00ACC84C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BA12D5AC28B8C10A00ACC84C /* ryo.jpg */,
+				BA12D5AD28B8C10A00ACC84C /* nagata.jpg */,
+				BA12D5AE28B8C10A00ACC84C /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA12D5B128B8C10A00ACC84C /* taithi.jpg in Resources */,
+				BA12D5AF28B8C10A00ACC84C /* ryo.jpg in Resources */,
+				BA12D5B028B8C10A00ACC84C /* nagata.jpg in Resources */,
 				BA12D5A428B8C0FD00ACC84C /* LaunchScreen.storyboard in Resources */,
 				BA12D5A128B8C0FD00ACC84C /* Assets.xcassets in Resources */,
 				BA12D59F28B8C0FC00ACC84C /* Main.storyboard in Resources */,
@@ -140,6 +163,7 @@
 			files = (
 				BA12D59C28B8C0FC00ACC84C /* ViewController.swift in Sources */,
 				BA12D59828B8C0FC00ACC84C /* AppDelegate.swift in Sources */,
+				BA12D5B328B8C2CE00ACC84C /* menter.swift in Sources */,
 				BA12D59A28B8C0FC00ACC84C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
